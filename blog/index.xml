@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on A blog</title>
+    <link>https://PanPiotrAdamus.github.io/blog/</link>
+    <description>Recent content in Blogs on A blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Jan 2021 12:09:33 +0100</lastBuildDate><atom:link href="https://PanPiotrAdamus.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>https://PanPiotrAdamus.github.io/blog/first-post/</link>
+      <pubDate>Sat, 30 Jan 2021 12:09:33 +0100</pubDate>
+      
+      <guid>https://PanPiotrAdamus.github.io/blog/first-post/</guid>
+      <description>Hi ! It works.</description>
+    </item>
+    
+  </channel>
+</rss>
