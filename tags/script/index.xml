@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Piotr Adamus blog</title>
-    <link>https://PanPiotrAdamus.github.io/</link>
-    <description>Recent content on Piotr Adamus blog</description>
+    <title>script on Piotr Adamus blog</title>
+    <link>https://PanPiotrAdamus.github.io/tags/script/</link>
+    <description>Recent content in script on Piotr Adamus blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Mar 2021 20:19:55 +0100</lastBuildDate><atom:link href="https://PanPiotrAdamus.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Mar 2021 20:19:55 +0100</lastBuildDate><atom:link href="https://PanPiotrAdamus.github.io/tags/script/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python and zip archives</title>
       <link>https://PanPiotrAdamus.github.io/blog/python-unzip/</link>
@@ -15,15 +15,6 @@
       <guid>https://PanPiotrAdamus.github.io/blog/python-unzip/</guid>
       <description>A problem I got a task at work to provide bank statements for the audit to the auditor. Each of the zipped bank statement archives includes hundreds of the bank statements (and yet you have a 12 periods to search for). What a tedious job but it must be done !
 A concept of solution Each bank statement was named with regular pattern- what made things easier for me. I found that the best and the most efficient way to solve it is to:</description>
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>https://PanPiotrAdamus.github.io/blog/first-post/</link>
-      <pubDate>Sat, 30 Jan 2021 12:09:33 +0100</pubDate>
-      
-      <guid>https://PanPiotrAdamus.github.io/blog/first-post/</guid>
-      <description>Hi ! It works.</description>
     </item>
     
   </channel>

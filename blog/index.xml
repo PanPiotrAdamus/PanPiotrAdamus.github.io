@@ -6,7 +6,17 @@
     <description>Recent content in Blogs on Piotr Adamus blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Jan 2021 12:09:33 +0100</lastBuildDate><atom:link href="https://PanPiotrAdamus.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Mar 2021 20:19:55 +0100</lastBuildDate><atom:link href="https://PanPiotrAdamus.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python and zip archives</title>
+      <link>https://PanPiotrAdamus.github.io/blog/python-unzip/</link>
+      <pubDate>Tue, 16 Mar 2021 20:19:55 +0100</pubDate>
+      
+      <guid>https://PanPiotrAdamus.github.io/blog/python-unzip/</guid>
+      <description>A problem I got a task at work to provide bank statements for the audit to the auditor. Each of the zipped bank statement archives includes hundreds of the bank statements (and yet you have a 12 periods to search for). What a tedious job but it must be done !
+A concept of solution Each bank statement was named with regular pattern- what made things easier for me. I found that the best and the most efficient way to solve it is to:</description>
+    </item>
+    
     <item>
       <title>First Post</title>
       <link>https://PanPiotrAdamus.github.io/blog/first-post/</link>

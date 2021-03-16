@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Python and zip archives | Piotr Adamus blog</title>
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+
+
+  
+  
+    
+ 
+  
+  
+  
+  
+  
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/post.min.a4712d0376acf8c0491ef2b98baf2f9287629f027a654e15b0ca42433957f47d.css" integrity="sha256-pHEtA3as&#43;MBJHvK5i68vkodinwJ6ZU4VsMpCQzlX9H0="/>
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/custom.min.57e77e65f58df30cefe4c08ee21850984c4f151d9c90e923ff83ee555a1bfb46.css" integrity="sha256-V&#43;d&#43;ZfWN8wzv5MCO4hhQmExPFR2ckOkj/4PuVVob&#43;0Y="/>
+  
+  
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/PanPiotrAdamus.github.io\/"
+      },
+      "articleSection" : "blog",
+      "name" : "Python and zip archives",
+      "headline" : "Python and zip archives",
+      "description" : "",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2021",
+      "datePublished": "2021-03-16 20:19:55 \u002b0100 CET",
+      "dateModified" : "2021-03-16 20:19:55 \u002b0100 CET",
+      "url" : "https:\/\/PanPiotrAdamus.github.io\/blog\/python-unzip\/",
+      "wordCount" : "453",
+      "keywords" : ["Blog"]
+    }
+  
+  </script>
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" id="navigation">
+  <ul class="nav__list">
+    
+    
+      <li>
+        <a  href="/blog">Posts</a>
+      </li>
+    
+      <li>
+        <a  href="/">Main</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+    
+
+    <div class="flex-wrapper">
+      <div class="post__container">
+        <div class="post">
+          <header class="post__header">
+            <h1 id="post__title">Python and zip archives</h1>
+            <time datetime="2021-03-16 20:19:55 &#43;0100 CET" class="post__date">Mar 16 2021</time> 
+          </header>
+          <article class="post__content">
+              
+<h1 id="a-problem">A problem</h1>
+<p>I got a task at work to provide bank statements for the audit to the auditor. Each of the zipped bank statement archives includes <strong>hundreds</strong> of the bank statements (and yet you have a 12 periods to search for).
+What a tedious job but it must be done !</p>
+<h1 id="a-concept-of-solution">A concept of solution</h1>
+<p>Each bank statement was named with regular pattern- what made things easier for me. I found that the best and the most efficient way to solve it is to:</p>
+<ul>
+<li>get bank statement archive list</li>
+<li>predefine as a list which accounts are to be found in the archive</li>
+<li>extract only those files that matches the bank account pattern in the bank statement file name</li>
+<li>extract it to some sub directory</li>
+<li>get print out of what bank statement files where found and extracted- for quick crosscheck etc.</li>
+</ul>
+<h1 id="now-we-are-coding-">Now we are coding :)</h1>
+<p>This code solved a problem for me for now. It can be run as a python script or through JupyterLab- that&rsquo;s how I use it.</p>
+<pre><code>import zipfile
+from zipfile import ZipFile
+import os.path
+
+#set home folder and change working directory
+home_folder=os.getenv('HOMEPATH')
+os.chdir(home_folder)
+
+#create the empty list to store the zip file name
+zip_files = []
+
+#create the list of the file names that you want to extract from the zip file
+file_pattern = [&quot;account-aa4444&quot;,&quot;account-bb7777&quot;,&quot;account-cc9999&quot;]
+
+#set the base directory to Downloads and fill in list with the file names
+directory = r'Downloads'
+save_directory = os.path.join(directory,'temp')
+for entry in os.scandir(directory):
+    if (entry.path.endswith (&quot;.zip&quot;)
+            or entry.path.endswith (&quot;.zip&quot;)) and entry.is_file():
+        zip_files.append(entry.path)
+    
+#loop through the each zip file and find out if there is file name containing a pattern; if so extract to the temp directory
+for item in zip_files:
+    with zipfile.ZipFile(item) as zip_archive:
+        for file in zip_archive.namelist():
+            for item in file_pattern:
+                result = (file.startswith(item,13,55))
+                if result == True:
+                    zip_archive.extract(file, save_directory)
+print(&quot;This is the list of exctracted files from the zip files:&quot;)
+for item in os.listdir(save_directory):
+    if item == 0:
+        print(&quot;No files found for extraction&quot;)
+    else:
+        print(item)
+</code></pre>
+<p>So in short, code will look up in each zip archive for each of the file name pattern and if found extract it,
+i.e. pattern <strong>account-aa4444</strong> where the full name of the bank statement file is i.e. <em>Bank-Statement-<strong>account-aa4444</strong>-2020-08.pdf</em>.</p>
+<p>Next thing to add is regex; so instead of looking for a pattern in predefined position in the file name, try to find a pattern regardless where it stands.
+This will make code more robust for more irregular file names etc.</p>
+<p>At the end I am happy to have that written- it saved me and will save me a lot of time in the future !</p>
+<hr>
+<p>There are many examples is in the internet how to approach unziping archives through python; this work was inspired by them, too.</p>
+
+
+              
+          </article>
+          
+
+<ul class="tags__list">
+    
+    <li class="tag__item">
+        <a class="tag__link" href="https://PanPiotrAdamus.github.io/tags/python/">python</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://PanPiotrAdamus.github.io/tags/jupyterlab/">JupyterLab</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://PanPiotrAdamus.github.io/tags/unzip/">unzip</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://PanPiotrAdamus.github.io/tags/script/">script</a>
+    </li></ul>
+
+ <div class="pagination">
+  
+    <a class="pagination__item" href="https://PanPiotrAdamus.github.io/blog/first-post/">
+        <span class="pagination__label">Previous Post</span>
+        <span class="pagination__title">First Post</span>
+    </a>
+  
+
+  
+</div>
+
+          
+          <footer class="post__footer">
+            
+
+
+<div class="social-icons">
+  
+     
+    
+  
+     
+    
+      <a class="social-icons__link" rel="me" title="GitHub"
+         href="https://github.com/PanPiotrAdamus"
+         target="_blank" rel="noopener">
+        <div class="social-icons__icon" style="background-image: url('https://PanPiotrAdamus.github.io/svg/github.svg')"></div>
+      </a>
+    
+  
+     
+    
+      <a class="social-icons__link" rel="me" title="Email"
+         href="mailto:PanPiotrAdamus@gmail.com"
+         target="_blank" rel="noopener">
+        <div class="social-icons__icon" style="background-image: url('https://PanPiotrAdamus.github.io/svg/email.svg')"></div>
+      </a>
+    
+  
+     
+    
+  
+     
+    
+  
+     
+    
+  
+     
+    
+  
+     
+    
+      <a class="social-icons__link" rel="me" title="LinkedIn"
+         href="https://www.linkedin.com/in/piotr-adamus/"
+         target="_blank" rel="noopener">
+        <div class="social-icons__icon" style="background-image: url('https://PanPiotrAdamus.github.io/svg/linkedin.svg')"></div>
+      </a>
+    
+  
+     
+    
+     
+</div>
+
+            <p></p>
+          </footer>
+          </div>
+      </div>
+      
+    </div>
+    
+
+  </main>
+
+   
+
+  
+  <script src="/js/index.min.575dda8d49ee02639942c63564273e6da972ab531dda26a08800bdcb477cbd7f.js" integrity="sha256-V13ajUnuAmOZQsY1ZCc&#43;balyq1Md2iagiAC9y0d8vX8=" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js"></script>
+
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"
+    data-autoloader-path="https://unpkg.com/prismjs@1.20.0/components/"></script>
+
+  
+
+
+</body>
+
+</html>
