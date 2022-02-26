@@ -6,12 +6,12 @@ tags: python JupyterLab unzip
 ---
 # Problem
 
-How to pull a pdf file*(s) out of the list of the zip file(s) based on the criteria, say combination of letter and numbers.
+How to pull a pdf file(s) out of the list of the zip file(s) based on the criteria, say combination of letter and numbers.
 
 # Solution
 
 - get zip archive list
-- predefine as a list which file(s) *are to be found in the archive
+- predefine as a list which file(s) are to be found in the archive
 - extract only those files that matches the pattern in the file name
 - extract it to some sub directory
 - get print out of which files where found and extracted- for quick crosscheck etc.
