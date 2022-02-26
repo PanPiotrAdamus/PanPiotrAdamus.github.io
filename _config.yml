@@ -1,9 +1,7 @@
 #Main settings
 
 title: /// Piotr Adamus ///
-author:
-  name: Piotr Adamus
-  email: "PanPiotrAdamus@gmail.com"
+email: "PanPiotrAdamus@gmail.com"
 description: >
   Super, awesome and what not :)
   Mostly about Python, Treasury, some VBA and other random stuff.
@@ -18,11 +16,8 @@ kramdown:
   syntax_highlighter: rouge
 
 theme: minima
-minima:
-  skin: solarized 
-  social_links:
-    linkedin: Piotr-Adamus
-    github: PanPiotrAdamus
+linkedin_username: Piotr-Adamus
+github_username: PanPiotrAdamus
 
 plugins:
   - jekyll-feed
