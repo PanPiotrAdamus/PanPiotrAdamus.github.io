@@ -34,3 +34,5 @@ gem "webrick", "~> 1.7"
 gem "jekyll-sitemap", "~> 1.4"
 
 gem "kramdown-syntax-coderay", "~> 1.0"
+
+gem "jekyll-seo-tag", "~> 2.8"

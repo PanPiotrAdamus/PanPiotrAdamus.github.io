@@ -3,8 +3,7 @@
 title: /// Piotr Adamus ///
 email: "PanPiotrAdamus@gmail.com"
 description: >
-  Super, awesome and what not :)
-  Mostly about Python, Treasury, some VBA and other random stuff.
+  Python, JupyterLab, Altair, VBA, OpenSCAD, SQL, shell(s), RunBSD, Finance ...
 timezone: Europe/Amsterdam
 url: "https://PanPiotrAdamus.github.io"
 
@@ -16,9 +15,16 @@ kramdown:
   syntax_highlighter: rouge
 
 theme: minima
+
+header_pages:
+  - about.markdown
+  - tagpage.markdown
+  - tagpage.html
+
 linkedin_username: Piotr-Adamus
 github_username: PanPiotrAdamus
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag

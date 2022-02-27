@@ -78,6 +78,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.2.1)
   jekyll-feed (~> 0.12)
+  jekyll-seo-tag (~> 2.8)
   jekyll-sitemap (~> 1.4)
   kramdown-syntax-coderay (~> 1.0)
   minima (~> 2.5)
