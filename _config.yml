@@ -18,7 +18,6 @@ theme: minima
 
 header_pages:
   - about.markdown
-  - tagpage.markdown
   - tagpage.html
 
 linkedin_username: Piotr-Adamus
