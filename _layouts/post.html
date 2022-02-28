@@ -6,11 +6,14 @@ layout: default
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p> <span>
-  {% for tag in page.tags %}
-    {% capture tag_name %}{{ tag }}{% endcapture %}
-    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge" style="color:#969595;border-color:hsla(0, 0%, 59%,0.6)"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
-  {% endfor %}
-</span> </p>
+        {% for tag in page.tags %}
+            {% capture tag_name %}{{ tag }}{% endcapture %}
+                <!--<a href="/tag/{{ tag_name }}"><code class="highligher-rouge" style="color:#969595;border-color:hsla(0, 0%, 59%,0.6)"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+-->
+<a href="/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
+
+        {% endfor %}
+    </span> </p>
 
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -34,7 +37,9 @@ layout: default
     <p> <span>
         {% for tag in page.tags %}
         {% capture tag_name %}{{ tag }}{% endcapture %}
-            <a href="/tag/{{ tag_name }}"><code class="highligher-rouge" style="color:#969595;border-color:hsla(0, 0%, 59%,0.6)"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+<!--            <a href="/tag/{{ tag_name }}"><code class="highligher-rouge" style="color:#969595;border-color:hsla(0, 0%, 59%,0.6)"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+-->
+<a href="/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
         {% endfor %}
     </span> </p>
 

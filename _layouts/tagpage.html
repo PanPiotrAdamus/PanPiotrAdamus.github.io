@@ -2,7 +2,9 @@
 layout: default
 ---
 <div class="post">
-<h1>Tag: <code class="highligher-rouge" style="color:#969595;border-color:hsla(0, 0%, 59%,0.6)"><nobr>{{ page.tag }}</nobr></code></h1>
+<!--<h1>Tag: <code class="highligher-rouge" style="color:#969595;border-color:hsla(0, 0%, 59%,0.6)"><nobr>{{ page.tag }}</nobr></code></h1>
+-->
+<h2>Tag: <nobr>{{ page.tag }}</nobr></h2>
 <ul>
 {% for post in site.tags[page.tag] %}
   <div class="post_title">
