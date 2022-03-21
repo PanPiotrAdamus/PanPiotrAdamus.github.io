@@ -21,7 +21,7 @@ A list of birdspiders I own, divided by specie, molt and gender.
 | Cyriocosmus elegans | 4 | F | None |
 | Cyriocosmus elegans | 4 | F | None |
 | Cyriocosmus elegans | 4 | M | Matured male, 2021/12 |
-| Cyriocosmus ritae | 3 | ? | None |
+| Cyriocosmus ritae | 4 | F | None |
 
 Most of them came as L1/2 so please add 1/2 extra molts to the molt number given by me in the table.
 
