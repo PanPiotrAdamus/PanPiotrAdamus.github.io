@@ -15,13 +15,10 @@ A list of birdspiders I own, divided by specie, molt and gender.
 | Caribena versicolor | 3 | ? | None |
 | Davus pentaloris | 3 | ? | None|
 | Avicularia juruensis m2 | 3 | M | None|
-<<<<<<< HEAD
 | Avicularia minatrix | 4 | ? | None |
 | Tliltocatl albopilosum nicaragua | 1 | ? | None |
-=======
 | Avicularia minatrix | 4 | M | None |
 | Tliltocatl albopilosum nicaragua | 2 | ? | None |
->>>>>>> e54f3de (Another commit)
 | Cyriocosmus giganteus | 4 | ? | None |
 | Cyriocosmus elegans | 4 | F | None |
 | Cyriocosmus elegans | 4 | F | None |
