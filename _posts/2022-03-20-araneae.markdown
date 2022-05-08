@@ -8,16 +8,16 @@ tags: araneae
 A list of birdspiders I own, divided by specie, molt and gender.
 
 | Latin name | Molt | Gender | Remarks |
-| Chromatopelma cyaneopubescens | 5 | F | None |
-| Chromatopelma cyaneopubescens | 5 | F | None |
-| Kochiana brunnipes | 3 | F | Egg sac, 2021/06 |
+| Chromatopelma cyaneopubescens | 6 | F | None |
+| Chromatopelma cyaneopubescens | 6 | F | None |
+| Kochiana brunnipes | 4 | F | Egg sac, 2021/06 |
 | Pseudhapalopus sp Columbia | 3 | ? | None |
 | Caribena versicolor | 3 | ? | None |
 | Davus pentaloris | 3 | ? | None|
 | Avicularia juruensis m2 | 3 | M | None|
-| Avicularia minatrix | 3 | ? | None |
+| Avicularia minatrix | 4 | ? | None |
 | Tliltocatl albopilosum nicaragua | 1 | ? | None |
-| Cyriocosmus giganteus | 3 | ? | None |
+| Cyriocosmus giganteus | 4 | ? | None |
 | Cyriocosmus elegans | 4 | F | None |
 | Cyriocosmus elegans | 4 | F | None |
 | Cyriocosmus elegans | 4 | M | Matured male, 2021/12 |
