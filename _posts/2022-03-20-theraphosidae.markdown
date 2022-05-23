@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Araneae list"
+title: "Theraphosidae list"
 date: 2022-03-20
-tags: araneae
+tags: theraphosidae
 ---
 
 A list of birdspiders I own, divided by specie, molt and gender.
@@ -11,7 +11,7 @@ A list of birdspiders I own, divided by specie, molt and gender.
 | Chromatopelma cyaneopubescens | 6 | F | None |
 | Chromatopelma cyaneopubescens | 6 | F | None |
 | Kochiana brunnipes | 4 | F | Egg sac, 2021/06 |
-| Pseudhapalopus sp Columbia | 3 | ? | None |
+| Pseudhapalopus sp Columbia | 4 | ? | None |
 | Caribena versicolor | 3 | ? | None |
 | Davus pentaloris | 3 | ? | None|
 | Avicularia juruensis m2 | 3 | M | None|
