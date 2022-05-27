@@ -5,7 +5,7 @@ date: 2022-03-20
 tags: theraphosidae
 ---
 
-A list of birdspiders I own, divided by specie, molt and gender.
+A list of birdspiders I own, divided by species, molt and gender.
 
 | Latin name | Molt | Gender | Remarks |
 | Chromatopelma cyaneopubescens | 6 | F | None |
