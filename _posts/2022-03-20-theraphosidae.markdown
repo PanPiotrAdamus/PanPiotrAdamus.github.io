@@ -17,8 +17,6 @@ A list of birdspiders I own, divided by species, molt and gender.
 | Avicularia juruensis m2 | 3 | M | None|
 | Avicularia minatrix | 4 | ? | None |
 | Tliltocatl albopilosum nicaragua | 1 | ? | None |
-| Avicularia minatrix | 4 | M | None |
-| Tliltocatl albopilosum nicaragua | 2 | ? | None |
 | Cyriocosmus giganteus | 4 | ? | None |
 | Cyriocosmus elegans | 4 | F | None |
 | Cyriocosmus elegans | 4 | F | None |
