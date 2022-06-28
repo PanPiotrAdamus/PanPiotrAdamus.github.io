@@ -11,7 +11,7 @@ A list of birdspiders I own, divided by species, molt and gender.
 | Chromatopelma cyaneopubescens | 6 | F | None |
 | Chromatopelma cyaneopubescens | 6 | F | None |
 | Kochiana brunnipes | 4 | F | Egg sac, 2021/06 |
-| Pseudhapalopus sp Columbia | 4 | ? | None |
+| Pseudhapalopus sp Columbia | 5 | ? | None |
 | Caribena versicolor | 3 | ? | None |
 | Davus pentaloris | 3 | ? | None|
 | Avicularia juruensis m2 | 4 | M | None|
