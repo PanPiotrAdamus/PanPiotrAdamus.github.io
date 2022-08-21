@@ -2,7 +2,7 @@
 layout: post
 title: "3d print filament list"
 date: 2022-08-21
-tags: 3d printing 
+tags: 3d_printing 
 ---
 
 List of the 3d printing filaments I used or I purchased. All of them currently are made by FormFutura. Print parameters, if present here, are what I set to print. They are in range of producer recomendations. If print parameter N/A, this filament was not yet used by me.
