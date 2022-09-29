@@ -35,3 +35,14 @@ I sold all of them with exception to Pseudohapalopus sp Columbia and Avicularia 
 Keeping that number became a bit problematic with increasing space needed for enclosures.
 
 Three is maximum I will continue with.
+
+**Update 09-2022**
+
+New spiecied were ordered and received, below current list of what is in my possesion.
+
+| Latin name | Molt | Gender | Remarks |
+| Pseudohapalopus sp Columbia | 6 | F | None |
+| Avicularia minatrix | 5 | M | None |
+| Ybyrapora Diversipes | 2 | ? | None |
+| Typhochlaena seladonia | 2 | ? | None |
+
