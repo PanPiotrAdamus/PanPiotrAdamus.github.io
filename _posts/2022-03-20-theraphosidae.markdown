@@ -42,7 +42,7 @@ New spiecied were ordered and received, below current list of what is in my poss
 
 | Latin name | Molt | Gender | Remarks |
 | Pseudohapalopus sp Columbia | 6 | F | None |
-| Avicularia minatrix | 5 | M | None |
-| Ybyrapora Diversipes | 2 | ? | None |
-| Typhochlaena seladonia | 2 | ? | None |
+| Avicularia minatrix | 7 | M | Adult male |
+| Ybyrapora Diversipes | 3 | ? | None |
+| ~~Typhochlaena seladonia~~ | 2 | ? | None |
 
