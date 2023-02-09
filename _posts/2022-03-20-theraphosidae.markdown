@@ -41,7 +41,7 @@ Three is maximum I will continue with.
 New spiecied were ordered and received, below current list of what is in my possesion.
 
 | Latin name | Molt | Gender | Remarks |
-| Pseudohapalopus sp Columbia | 6 | F | None |
+| ~~Pseudohapalopus sp Columbia~~ | 6 | F | None |
 | Avicularia minatrix | 7 | M | Adult male |
 | Ybyrapora Diversipes | 4 | ? | None |
 | ~~Typhochlaena seladonia~~ | 2 | ? | None |
