@@ -26,6 +26,10 @@ List of the 3d printing filaments I used or I purchased. All of them currently a
 | PETG | Rosa3D | Standard | Transparent Nave Blue | 800g | 225 and 80 | PETG filament with glass finish/look. |
 | PETG | Rosa3D | Standard | Transparent | 800g | 225 and 80 | PETG filament with glass finish/look. |
 | PETG | Rosa3D | Standard | Black | 800g | 225 and 80 | Regular PETG; prints fine. |
+| PETG | Prusa | Matte Black | Black | 1000g | 240 and 80 | Matte finish. |
+| PETG | Prusa | Galaxy Black | Black | 1000g | 240 and 80 | Sparkle effect. |
+| PETG | Prusa | Mango Yellow | Yellow | 1000g | 240 and 80 | N/A |
+| PETG | Prusa | Orange | Orange | 1000g | 240 and 80 | N/A |
 | TPU | FormFutura | Python Flex | Clear | 500g | N/A | Flexible TPU filament, available in 3 colors only. Needs settings as strings a lot. Difficult to print. |
 | TPC | FormFutura | FlexiFil | Natural | 500g | N/A | It's flexible filamen, partially bio based, with "flexular memory". |
 | ASA | FormFutura | ApolloX | Natural | 250g | N/A | ASA filament, which is UV and weather resitant. |
