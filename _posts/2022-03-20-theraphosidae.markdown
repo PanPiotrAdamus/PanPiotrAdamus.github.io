@@ -45,6 +45,13 @@ New spiecied were ordered and received, below current list of what is in my poss
 | ~~Avicularia minatrix~~ | 7 | M | Adult male |
 | ~~Ybyrapora Diversipes~~ | 5 | ? | None |
 | ~~Typhochlaena seladonia~~ | 2 | ? | None |
+
+**Update 06-2023**
+
+Species from above list (2022) died :)
+I did order new ones, all from arborial species.
+
+| Latin name | Molt | Gender | Remarks |
 | Avicularia merianae | 3 | ? | None |
 | Avicularia avicularia | 3 | ? | None |
 | Ybyrapora diversupes | 4 | ? | None |
