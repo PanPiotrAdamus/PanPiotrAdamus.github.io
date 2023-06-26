@@ -11,11 +11,11 @@ A list of birdspiders I own, divided by species, molt and gender.
 | ~~Chromatopelma cyaneopubescens~~ | 6 | F | None |
 | ~~Chromatopelma cyaneopubescens~~ | 6 | F | None |
 | ~~Kochiana brunnipes~~ | 4 | F | Egg sac, 2021/06 |
-| Pseudohapalopus sp Columbia | 5 | ? | None |
+| ~~Pseudohapalopus sp Columbia~~ | 5 | ? | None |
 | ~~Caribena versicolor~~ | 5 | M | None |
 | ~~Davus pentaloris~~ | 3 | ? | None|
 | ~~Avicularia juruensis m2~~ | 5 | M | None|
-| Avicularia minatrix | 5 | M | None |
+| ~~Avicularia minatrix~~ | 5 | M | None |
 | ~~Tliltocatl albopilosum nicaragua~~ | 3 | F | None |
 | ~~Cyriocosmus giganteus~~ | 4 | ? | None |
 | ~~Cyriocosmus elegans~~ | 4 | F | None |
@@ -42,7 +42,10 @@ New spiecied were ordered and received, below current list of what is in my poss
 
 | Latin name | Molt | Gender | Remarks |
 | ~~Pseudohapalopus sp Columbia~~ | 6 | F | None |
-| Avicularia minatrix | 7 | M | Adult male |
-| Ybyrapora Diversipes | 5 | ? | None |
+| ~~Avicularia minatrix~~ | 7 | M | Adult male |
+| ~~Ybyrapora Diversipes~~ | 5 | ? | None |
 | ~~Typhochlaena seladonia~~ | 2 | ? | None |
-
+| Avicularia merianae | 3 | ? | None |
+| Avicularia avicularia | 3 | ? | None |
+| Ybyrapora diversupes | 4 | ? | None |
+| Ybyrapora sooretama | 3 | ? | None |
