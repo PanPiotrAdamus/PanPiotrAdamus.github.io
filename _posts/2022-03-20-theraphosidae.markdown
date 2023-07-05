@@ -52,7 +52,7 @@ Species from above list (2022) died :)
 I did order new ones, all from arborial species.
 
 | Latin name | Molt | Gender | Remarks |
-| Avicularia merianae | 3 | ? | None |
+| Avicularia merianae | 4 | ? | None |
 | Avicularia avicularia | 4 | ? | None |
 | Ybyrapora diversipes | 4 | ? | None |
 | Ybyrapora sooretama | 3 | ? | None |
