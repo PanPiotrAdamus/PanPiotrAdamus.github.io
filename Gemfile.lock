@@ -74,6 +74,7 @@ GEM
 
 PLATFORMS
   powerpc-linux
+  x86_64-linux
 
 DEPENDENCIES
   jekyll (~> 4.2.1)
