@@ -53,6 +53,6 @@ I did order new ones, all from arborial species.
 
 | Latin name | Molt | Gender | Remarks |
 | Avicularia merianae | 6 | ? | None |
-| Avicularia avicularia | 5 | ? | None |
+| Avicularia avicularia | 6 | ? | None |
 | Ybyrapora diversipes | 5 | ? | None |
 | Ybyrapora sooretama | 5 | ? | None |
