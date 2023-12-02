@@ -30,8 +30,8 @@ List of the 3d printing filaments I used or I purchased. All of them currently a
 | PETG | Prusa | Galaxy Black | Black | 1000g | 240 and 80 | Sparkle effect. |
 | PETG | Prusa | Mango Yellow | Yellow | 1000g | 240 and 80 | N/A |
 | PETG | Prusa | Orange | Orange | 1000g | 240 and 80 | N/A |
-| PETG | Spectrum | r-PETG | Carmine Red and Iron Gray | 1000g | 245 and 65 | N/A |
-| PETG | Spectrum | PETG Matt | Sand Khaki | 1000g | 245 and 65 | N/A |
+| PETG | Spectrum | r-PETG | Carmine Red and Iron Gray | 1000g | 245 and 65 | All prints fine. No issues. |
+| PETG | Spectrum | PETG Matt | Sand Khaki | 1000g | 245 and 65 | It shows a bit of stringing, even after drying at 55. Besides, no issues. |
 | TPU | FormFutura | Python Flex | Clear | 500g | N/A | Flexible TPU filament, available in 3 colors only. Needs settings as strings a lot. Difficult to print. |
 | TPC | FormFutura | FlexiFil | Natural | 500g | N/A | It's flexible filament, partially bio based, with "flexular memory". |
 | ASA | FormFutura | ApolloX | Natural | 250g | N/A | ASA filament, which is UV and weather resistant. |
