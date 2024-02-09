@@ -34,3 +34,5 @@ tags: varia
 * https://www.osw.waw.pl/pl/publikacje/analizy/2021-12-20/rosyjski-szantaz-wobec-zachodu
 
 * Milankovitch cycles and global warming
+
+* https://institut-rousseau.fr/
