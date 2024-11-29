@@ -37,9 +37,8 @@ tags: varia
 
 * https://institut-rousseau.fr/
 
-<<<<<<< HEAD
 * Frederick Forsyth
-=======
+
 * Karl Poper "Science as Falsification"
 
 * The Club of Rome and "Limits of Growth" //as a missed prognosis of limit of growth and lack of resources//
@@ -47,4 +46,3 @@ tags: varia
 * Bjorn Lomborg "False alarm"
 
 * https://alternatywakas.pl/
->>>>>>> f4f6d4e804b3ade6dd8e481d0c35e5cb408e153d
