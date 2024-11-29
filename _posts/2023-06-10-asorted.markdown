@@ -36,3 +36,5 @@ tags: varia
 * Milankovitch cycles and global warming
 
 * https://institut-rousseau.fr/
+
+* Frederick Forsyth
